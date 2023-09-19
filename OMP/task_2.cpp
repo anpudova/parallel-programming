@@ -3,7 +3,8 @@
 
 void result(int num_thread);
 
-int main() {
+int main() 
+{
     int num_threads1 = 3;
     int num_threads2 = 1;
 
