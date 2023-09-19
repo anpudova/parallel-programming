@@ -3,7 +3,8 @@
 #include <cstdlib>
 #include <ctime>
 
-int main() {
+int main() 
+{
     srand(time(nullptr));
 
     int d[6][8];
@@ -14,6 +15,7 @@ int main() {
     }
 
     float avg = 0.0;
+    
     #pragma omp parallel sections
     {
         #pragma omp section
