@@ -1,7 +1,8 @@
 #include <iostream>
 #include <omp.h>
 
-int main() {
+int main() 
+{
     int a[10] = {10, 4, 7, 1, 15, 8, 9, 2, 6, 3};
     int b[10] = {5, 12, 8, 20, 3, 17, 1, 9, 6, 11};
     
