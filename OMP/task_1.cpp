@@ -2,7 +2,8 @@
 #include <omp.h>
 #include <string>
 
-int main() {
+int main() 
+{
     int num_threads = 8;
     omp_set_num_threads(num_threads);
 
